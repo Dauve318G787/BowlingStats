@@ -20,6 +20,23 @@ This site will also only go back to approximately 2012 or so
 and will focus heavily on the FOX era of PBA bowling
 (2019-present).
 
+Season and bowler dropdowns will be implemented as cascading
+dropdowns- in other words, the season that is selected
+will impact which bowlers show up in the "bowler 1"
+and "bowler 2" dropdowns. Bowlers will only show up
+in a particular season's dropdown if they made
+a television show in that season. They only need
+to make one TV show to be included, but they
+must make at least one TV show to be included.
+For example, Kris Prather's 2023 season will be
+documented, even though he only made one show.
+However, Francois Lavoie's 2024 season will not
+be documented, as he did not make any shows.
+
+PBA League and doubles stats will NOT be documented
+in the database. This website will focus on singles
+shows and only singles shows.
+
 This website will use a MySQL database to store bowler stats.
 So far, the bowler stats I have in mind are:
 
@@ -32,6 +49,8 @@ So far, the bowler stats I have in mind are:
 - Total tour titles
 - Versatility (titles won on different patterns will
 factor into this)
+- Head to Head Performance (have these bowlers faced each other
+on TV and what is their record against one another?)
 
 The oil patterns I plan to include are:
 
@@ -63,6 +82,27 @@ The bowlers I plan to include (and seasons) are:
     
     <body>
         <h1>Welcome to 7-10 Stats</h1>
+
+        <!--TODO DBD create cascading dropdowns for seasons
+        2012-2019. Refer to bookmarked W3schools page
+        for tips on how to implement. -->
+
+        <label for="season">Select Bowler 1</label>
+        <select name="bowler1" id="bowler1">
+            <option value="aj_chapman">AJ Chapman</option>
+            <option value="aj_johnson">AJ Johnson</option>
+            <option value="andrew_anderson">Andrew Anderson</option>
+            <option value="anthony_simonsen">Anthony Simonsen</option>
+            <option value="arturo_quintero">Arturo Quintero</option>
+            <option value="bill_o_neill">Bill O'Neill</option>
+            <option value="bj_moore">BJ Moore</option>
+            <option value="chris_barnes">Chris Barnes</option>
+            <option value="chris_via">Chris Via</option>
+            <option value="cortez_shenck">Cortez Schenck</option>
+            <option value="darren_tang">Darren Tang</option>
+            <option value="dick_allen">Dick Allen</option>
+
+        </select>
 
     
     </body>

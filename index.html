@@ -90,7 +90,7 @@ Anthony Simonsen:
 <html>
     <head>
     <title>7-10 Stats</title>
-    <script src="indexjs.js"></script>
+    <script src="indexjs.js" defer></script>
     </head>
     
     <body>
@@ -100,24 +100,16 @@ Anthony Simonsen:
         2012-2024. Refer to bookmarked W3schools page
         for tips on how to implement. -->
 
-        <form name="season_and_bowler" id="season_and_bowler">
-            Season 1: <select name="season_1" id="season_1">
-                <option value="" selected="selected">Select season 1</option>
-            </select>
-            <br><br>
-            Bowler 1: <select name="bowler_1" id="bowler_1">
-                <option value="" selected="selected">Select bowler 1</option>
-            </select>
-            <br><br>
-            Season 2: <select name="season_2" id="season_2">
-                <option value="" selected="selected">Select bowler 2</option>
-            </select>
-            <br><br>
-            Bowler 2: <select name="bowler_2" id="bowler_2">
-                <option value="" selected="selected">Select season 2</option>
-            </select>
-            <br><br>
-        </form>
+        <label for="season">Select a season:</label>
+        <select id="season" onchange="updateBowlers()">
+            <option value="">Please select a bowler</option>
+            <option value="2024">2024</option>
+        </select>
+
+        <label for="bowler">Select bowler</label>
+        <select id="bowler">
+
+        </select>
 
     
     </body>

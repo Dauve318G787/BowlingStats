@@ -68,19 +68,6 @@ The oil patterns I plan to include are:
 Some bowlers have not competed on one of or multiple of
 these patterns. 
 
-The bowlers I plan to include (and seasons) are:
-
-Jason Belmonte:
-2012-2024
-
-Kris Prather:
-2018-2024
-
-Anthony Simonsen:
-2016-2024
-
-
-
 -- continue this list --
 
 -->
@@ -91,6 +78,24 @@ Anthony Simonsen:
     <head>
     <title>7-10 Stats</title>
     <script src="indexjs.js" defer></script>
+
+    <?php
+    $dsn = "mysql:host=localhost;dbname=bowlingstats";
+    $username = "root";
+    $password = "";
+
+    try {
+        $pdo = new PDO($dsn, $username, $password);
+        $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+        echo "Connection successful!";
+
+    } catch (PDOException $e) {
+
+        echo "Connection unsuccessful: ". $e->getMessage();
+    }
+    ?>
+
     </head>
     
     <body>

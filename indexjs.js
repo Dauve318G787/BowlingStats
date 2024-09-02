@@ -3,6 +3,11 @@
 // Module function: to provide interactivity for landing //
 // page                                                  //
 ///////////////////////////////////////////////////////////
+
+/* TODO DBD if dropdown changes are not being reflected
+when website is being accessed from localhost, hit
+Ctrl + F5. This forces the browser to download the
+latest version of the page from the XAMPP server. */
     
 //Landing page cascading dropdown logic
 function updateBowlers()
@@ -40,6 +45,16 @@ function updateBowlers()
             "Eric Jones", "Justin Knowles",
             "Graham Fach", "Jason Sterner",
             "Matt Ogle", "Andrew Anderson"];
+        }
+    if (seasonSelection == "2023") 
+        {
+        bowlers = ["Justin Knowles", "Frank Snodgrass",
+            "Marshall Kent", "Thomas Larsen", "Kyle Troup",
+            "Richie Teece", "Anthony Simonsen",
+            "Tomas Kayhko", "EJ Tackett", "Packy Hanrahan",
+            "Francois Lavoie", "Tim Gruendler",
+            "Wes Malott", "Kris Prather", "Tom Smallwood",
+            "Chris Via", "Stuart Williams", "Jake Peters"];
         }
     
     //sort bowlers list alphabetically

@@ -54,7 +54,13 @@ function updateBowlers()
             "Tomas Kayhko", "EJ Tackett", "Packy Hanrahan",
             "Francois Lavoie", "Tim Gruendler",
             "Wes Malott", "Kris Prather", "Tom Smallwood",
-            "Chris Via", "Stuart Williams", "Jake Peters"];
+            "Chris Via", "Stuart Williams", "Jake Peters",
+            "Andrew Anderson", "Jason Belmonte",
+            "Jason Sterner", "Matt Ogle", 
+            "Parker Bohn III", "Kyle Sherman", 
+            "Sean Rash", "Patrick Dombrowski",
+            "Michael Martell", "Jakob Butturff",
+            "Joseph Grondin", "AJ Johnson"];
         }
     
     //sort bowlers list alphabetically

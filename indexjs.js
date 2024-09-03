@@ -44,7 +44,8 @@ function updateBowlers()
             "Michael Martell", "Kyle Sherman",
             "Eric Jones", "Justin Knowles",
             "Graham Fach", "Jason Sterner",
-            "Matt Ogle", "Andrew Anderson"];
+            "Matt Ogle", "Andrew Anderson",
+            "AJ Johnson"];
         }
     if (seasonSelection == "2023") 
         {
@@ -60,7 +61,13 @@ function updateBowlers()
             "Parker Bohn III", "Kyle Sherman", 
             "Sean Rash", "Patrick Dombrowski",
             "Michael Martell", "Jakob Butturff",
-            "Joseph Grondin", "AJ Johnson"];
+            "Joseph Grondin", "AJ Johnson",
+            "BJ Moore", "Santtu Tahvanainen",
+            "Jesper Svensson", "Sam Cooley",
+            "Packy Hanrahan", "Zac Tackett",
+            "Kevin McCune", "Keven Williams",
+            "Bill O'Neill", "Dom Barrett",
+            "Matt Russo"];
         }
     
     //sort bowlers list alphabetically

@@ -110,7 +110,7 @@ function updateBowlers()
             "Michael Tang", "Spencer Robarge",
             "Thomas Larsen", "Anthony Neuer"];
         }
-    else if (seasonSelection = "2020")
+    else if (seasonSelection == "2020")
         {
         bowlers = ["Chris Barnes", "Jakob Butturff",
             "Osku Palermaa", "Tommy Jones", "Darren Tang",
@@ -123,7 +123,8 @@ function updateBowlers()
             "Perry Crowell IV", "Chris Via",
             "Dick Allen", "Tom Smallwood",
             "Nick Pate", "Shawn Maldonado",
-            "Jesper Svensson"]; //TODO DBD finish this list
+            "Jesper Svensson", "BJ Moore",
+            "Carsten Hansen"]; //TODO DBD finish this list
         }
 
     

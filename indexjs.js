@@ -47,7 +47,8 @@ function updateBowlers()
             "Matt Ogle", "Andrew Anderson",
             "AJ Johnson"];
         }
-    if (seasonSelection == "2023") 
+    
+    else if (seasonSelection == "2023") 
         {
         bowlers = ["Justin Knowles", "Frank Snodgrass",
             "Marshall Kent", "Thomas Larsen", "Kyle Troup",
@@ -68,6 +69,26 @@ function updateBowlers()
             "Kevin McCune", "Keven Williams",
             "Bill O'Neill", "Dom Barrett",
             "Matt Russo"];
+        }
+    
+    else if (seasonSelection == "2022")
+        {
+        bowlers = ["Patrick Dombrowski", "Kyle Troup",
+            "Bill O'Neill", "Brandon Runk", "Graham Fach",
+            "DJ Archer", "Toby Sambueno", "Norm Duke",
+            "Tommy Jones", "Bailey Mavrick", "Matt Russo",
+            "EJ Tackett", "AJ Johnson", "Sean Rash",
+            "Brad Miller", "Kyle Sherman", 
+            "Francois Lavoie", "Arturo Quintero",
+            "Dom Barrett", "Jakob Butturff", "Jake Peters",
+            "Wesley Low Jr.", "Cortez Schenck", 
+            "Kris Prather", "Shawn Maldonado",
+            "Jason Sterner", "Andrew Anderson",
+            "Kris Koeltzow", "Kyle Sherman",
+            "Cristian Azcona", "Anthony Simonsen",
+            "Packy Hanrahan", "Keven Williams",
+            "AJ Chapman", "Norm Duke", 
+        ]
         }
     
     //sort bowlers list alphabetically

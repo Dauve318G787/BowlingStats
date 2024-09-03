@@ -110,6 +110,21 @@ function updateBowlers()
             "Michael Tang", "Spencer Robarge",
             "Thomas Larsen", "Anthony Neuer"];
         }
+    else if (seasonSelection = "2020")
+        {
+        bowlers = ["Chris Barnes", "Jakob Butturff",
+            "Osku Palermaa", "Tommy Jones", "Darren Tang",
+            "Sean Rash", "Packy Hanrahan",
+            "Jesper Svensson", "Brad Miller",
+            "Ryan Ciminelli", "AJ Johnson",
+            "Kyle Troup", "Kris Prather",
+            "Anthony Simonsen", "Jason Belmonte",
+            "Bill O'Neill", "Marshall Kent",
+            "Perry Crowell IV", "Chris Via",
+            "Dick Allen", "Tom Smallwood",
+            "Nick Pate", "Shawn Maldonado",
+            "Jesper Svensson"]; //TODO DBD finish this list
+        }
 
     
     //sort bowlers list alphabetically

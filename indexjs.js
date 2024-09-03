@@ -87,9 +87,30 @@ function updateBowlers()
             "Kris Koeltzow", "Kyle Sherman",
             "Cristian Azcona", "Anthony Simonsen",
             "Packy Hanrahan", "Keven Williams",
-            "AJ Chapman", "Norm Duke", 
-        ]
+            "AJ Chapman", "Norm Duke"];
         }
+    else if (seasonSelection == "2021")
+        {
+        bowlers = ["Darren Tang", "Kris Koeltzow",
+            "Wesley Low Jr.", "Anthony Simonsen",
+            "AJ Chapman", "Benjamin Martinez",
+            "Keven Williams", "Packy Hanrahan",
+            "Francois Lavoie", "Zach Weidman",
+            "Wes Malott", "Ronnie Russell",
+            "Andrew Anderson", "Tom Smallwood",
+            "Tim Foy Jr.", "Chris Via",
+            "Michael Davidson", "Brandon Novak",
+            "Kyle Troup", "Dick Allen",
+            "Tom Daugherty", "Ryan Ciminelli",
+            "Cristian Azcona", "Jesper Svensson",
+            "Sean Rash", "Jason Belmonte",
+            "EJ Tackett", "Marshall Kent",
+            "Sam Cooley", "Kris Prather",
+            "Shawn Maldonado", "Jason Sterner",
+            "Michael Tang", "Spencer Robarge",
+            "Thomas Larsen", "Anthony Neuer"];
+        }
+
     
     //sort bowlers list alphabetically
     bowlers.sort();

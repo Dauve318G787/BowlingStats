@@ -124,7 +124,25 @@ function updateBowlers()
             "Dick Allen", "Tom Smallwood",
             "Nick Pate", "Shawn Maldonado",
             "Jesper Svensson", "BJ Moore",
-            "Carsten Hansen"]; //TODO DBD finish this list
+            "Carsten Hansen"];
+        }
+    else if (seasonSelection == "2019")
+        {
+        bowlers = ["Jakob Butturff", "Jason Belmonte",
+            "Bill O'Neill", "Jesper Svensson",
+            "Rhino Page", "Tom Daugherty",
+            "Dom Barrett", "Patrick Girard",
+            "Kyle Troup", "Michael Tang",
+            "Dick Allen", "Sean Rash",
+            "Josh Blanchard", "Sean Lavery-Spahr",
+            "Marshall Kent", "EJ Tackett",
+            "Anthony Simonsen", "DJ Archer",
+            "Norm Duke", "Wes Malott",
+            "Shota Kawazoe", "Kris Prather",
+            "Kyle Sherman", "Matt McNiel",
+            "AJ Chapman", "Ronnie Russell",
+            "Andres Gomez", "Brad Miller",
+            "Shawn Maldonado"];
         }
 
     

@@ -16,9 +16,9 @@ the oil pattern the bowlers will be bowling on.
 For the sake of simplicity, this website will only
 track players' stats on television shows. Therefore,
 if a bowler has not made TV, they will not be on this list.
-This site will also only go back to approximately 2012 or so
-and will focus heavily on the FOX era of PBA bowling
-(2019-present).
+This site will focus on the FOX era of PBA bowling
+(2019-present), with potential to expand further back
+in the future.
 
 Season and bowler dropdowns will be implemented as cascading
 dropdowns- in other words, the season that is selected
@@ -114,13 +114,6 @@ these patterns.
             <option value="2021">2021</option>
             <option value="2020">2020</option>
             <option value="2019">2019</option>
-            <option value="2018">2018</option>
-            <option value="2017">2017</option>
-            <option value="2016">2016</option>
-            <option value="2015">2015</option>
-            <option value="2014">2014</option>
-            <option value="2013">2013</option>
-            <option value="2012">2012</option>
         </select>
 
         <label for="bowler">Select a bowler: </label>

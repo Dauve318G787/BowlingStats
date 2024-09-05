@@ -105,8 +105,8 @@ these patterns.
         2012-2024. Refer to bookmarked W3schools page
         for tips on how to implement. -->
 
-        <label for="season">Select a season:</label>
-        <select id="season" onchange="updateBowlers()">
+        <label for="season1">Select a season:</label>
+        <select id="season1" onchange="updateBowlers1()">
             <option value="">Please select a season</option>
             <option value="2024">2024</option>
             <option value="2023">2023</option>
@@ -116,8 +116,24 @@ these patterns.
             <option value="2019">2019</option>
         </select>
 
-        <label for="bowler">Select a bowler: </label>
-        <select id="bowler">
+        <label for="bowler1">Select a bowler: </label>
+        <select id="bowler1">
+
+        </select>
+
+        <label for="season2">Select a season:</label>
+        <select id="season2" onchange="updateBowlers2()">
+            <option value="">Please select a season</option>
+            <option value="2024">2024</option>
+            <option value="2023">2023</option>
+            <option value="2022">2022</option>
+            <option value="2021">2021</option>
+            <option value="2020">2020</option>
+            <option value="2019">2019</option>
+        </select>
+
+        <label for="bowler2">Select a bowler: </label>
+        <select id="bowler2">
 
         </select>
 

@@ -101,10 +101,6 @@ these patterns.
     <body>
         <h1>Welcome to 7-10 Stats</h1>
 
-        <!--TODO DBD create cascading dropdowns for seasons
-        2012-2024. Refer to bookmarked W3schools page
-        for tips on how to implement. -->
-
         <label for="season1">Select a season:</label>
         <select id="season1" onchange="updateBowlers1()">
             <option value="">Please select a season</option>
